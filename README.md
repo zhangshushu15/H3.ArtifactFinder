@@ -1,8 +1,8 @@
 # H3.ArtifactFinder
 
-An HD Mod plugin for Heroes 3: Shadow of Death (single player). It runs alongside SoD_SP.
+An HD Mod plugin for Heroes 3: Shadow of Death (single player).
 
-On the adventure map, press **Shift+F** (Ctrl+F is SoD_SP's FindMe) to open the search.
+On the adventure map, press **Shift+F** to open the search.
 
 - The list shows every artifact lying on the map, with its coordinates. As you type, it narrows to the artifacts whose name contains the text (case doesn't matter).
 - **Choose an entry** by clicking it, or with Up/Down (Page Up/Down, mouse wheel) and Enter or OK. The view centers on the artifact, and a panel at the bottom of the screen shows its picture and coordinates.
@@ -16,12 +16,11 @@ On the adventure map, press **Shift+F** (Ctrl+F is SoD_SP's FindMe) to open the 
 
 ## Install
 
-You need Heroes 3 Shadow of Death or Complete Edition (GOG, Ubisoft or CD) with [HD Mod](https://sites.google.com/site/heroes3hd/) installed. SoD_SP is optional.
+You need Heroes 3 Shadow of Death or Complete Edition (GOG, Ubisoft or CD) with [HD Mod](https://sites.google.com/site/heroes3hd/) installed.
 
 1. Download `H3.ArtifactFinder.dll` from the [latest release](https://github.com/zhangshushu15/H3.ArtifactFinder/releases/latest).
 2. In your game folder, create the folder `_HD3_Data\Packs\ArtifactFinder\` and put the DLL in it.
    For example: `C:\GOG Games\HoMM 3 Complete\_HD3_Data\Packs\ArtifactFinder\H3.ArtifactFinder.dll`.
-   (If you use SoD_SP, its pack sits next to it, in `_HD3_Data\Packs\SoD_SP.<version>\`.)
 3. Start `HD_Launcher.exe`, enable the **ArtifactFinder** pack, and launch the game from the launcher.
 4. In a single-player game, press **Shift+F** on the adventure map.
 
